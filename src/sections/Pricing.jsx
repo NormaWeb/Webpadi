@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 const Pricing = () => {
     return (
-        <section>
+        <section id='our-pricing'>
             <div className="flex justify-between items-center max-lg:flex-col gap-10">
                 <div className="flex flex-1 flex-col">
                     <h1 className="text-4xl font-semibold">Pricing that's simple and light on your mind and on your pocket.</h1>

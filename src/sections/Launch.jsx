@@ -5,7 +5,7 @@ import Image3 from '../assets/Full Home Page.png';
 
 const Launch = () => {
     return (
-        <section>
+        <section id='our-work'>
             <div>
                 <h1 className='text-4xl font-semibold leading-tight text-white'>Take a look at some of the websites <br /> we have built and launch successfully.</h1>
             </div>

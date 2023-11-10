@@ -12,32 +12,32 @@ const App = () => (
     <section className="padding bg-primary">
       <Onlinebusiness />
     </section>
-    
+
     <section className="padding">
       <Websites />
     </section>
-    
+
     <section className="padding">
       <Simplified />
     </section>
-    
+
     <section className="padding bg-primary">
       <Launch />
     </section>
-    
+
     <section className="padding">
       <Pricing />
     </section>
-    
+
     <section className="padding">
       <FAQs />
     </section>
-    
+
     <section className="padding">
       <Collaborate />
     </section>
 
-    </Mainlayout>
-    );
-    
-    export default App;
+  </Mainlayout>
+);
+
+export default App;
