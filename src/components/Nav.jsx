@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="bg-white p-4">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
 
-      <div className=" text-2xl font-semibold mb-4 lg:mb-0 lg:mr-10"> Logo</div>
+      <div className=" text-2xl font-semibold mb-4 lg:mb-0 lg:mr-6"> Logo</div>
 
       <ul className="flex space-x-6 pl-20  mb-4 lg:mb-0">
         <li><a href="#" className="hover:text-primary">Home</a></li>

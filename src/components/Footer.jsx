@@ -13,7 +13,7 @@ function Footer() {
         </ul>
       </div>
       
-      <div className="text-center text-white text-xl mt-10">
+      <div className=" text-white text-xl mt-10">
         All right reserved  &copy; 2023 | Oniontabs LLC
       </div>
     </footer>
