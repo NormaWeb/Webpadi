@@ -20,7 +20,7 @@ const Collaborate = () => {
                 <div className="flex-1 flex justify-center items-center">
                     <div>
                         <img src={Image} alt="FAQs"
-                            className="object-contain items-center"
+                            className="object-contain items-center w-100"
                         />
 
                     </div>

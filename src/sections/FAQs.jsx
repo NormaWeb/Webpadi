@@ -35,7 +35,7 @@ const FAQs = () => {
 
     return (
         <section className="max-container">
-            <div className="">
+            <div className="p-10">
                 <h1 className="text-4xl font-semibold leading-tight">Frequently <br /> Asked Questions</h1>
                 <p className='text-xl mt-3'>This is where we answer all your <br /> questions. Check it out.</p>
             </div>
@@ -46,7 +46,7 @@ const FAQs = () => {
                         {faqData.map((item, index) => (
                             <div key={index} className="p-8 rounded-lg">
                                 <button
-                                    className="flex items-center justify-between w-full border border-transparent border-b-black pb-8"
+                                    className="flex justify-between w-full border border-transparent border-b-black pb-8"
                                     onClick={() => handleAccordionClick(index)}
                                 > <h1 className="font-semibold">{item.question}</h1>
                                     <span className="">
@@ -76,15 +76,15 @@ const FAQs = () => {
                     </div>
                 </div>
 
-            <div className="flex-1 flex flex-col justify-center max-lg:flex-col bg-slate-gray gap-10 p-5">
+            <div className="flex-1 flex flex-col max-lg:flex-col bg-slate-gray gap-5 mt-16 p-5">
                 <h1 className='text-center'>
                     <div className='flex flex-col items-center'>
                         <img src={Icon} alt="FAQs"
-                            width={150}
-                            className="object-contain items-center w-16 h-16 "
+                            width={180}
+                            className="object-contain items-center w-17 h-17 mt-10"
                         />
-                        <span className='text-3xl font-bold'> You have different questions?</span>
-                        <p className='text-xl'> Our team will answer all your questions. <br /> We ensure a quick response.</p>
+                        <span className='text-3xl font-bold mb-5'> You have different questions?</span>
+                        <p className='text-xl mt-5'> Our team will answer all your questions. <br /> We ensure a quick response.</p>
 
                                 <div className="flex justify-center items-center mt-10">
                                     <Button label="Contact Support" />

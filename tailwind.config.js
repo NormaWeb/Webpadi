@@ -36,7 +36,9 @@ export default {
       colors: {
         'primary': "#81009e",
         "white": "#ffffff",
-        "slate-gray": "#eaedfe",
+        // "slate-gray": "#eaedfe",
+        "slate-gray": "hsl(150deg 12.5% 96.86%)",
+        
       
       },
       boxShadow: {

@@ -1,8 +1,4 @@
 import React from 'react';
-import Icon1 from '../assets/one.png';
-import Icon2 from '../assets/two.png';
-import Icon3 from '../assets/three.png';
-import Icon4 from '../assets/four.png';
 import Button from '../components/Button';
 const Simplified = () => {
     return (
@@ -19,19 +15,23 @@ const Simplified = () => {
 
                 <div className="flex-1 flex-col justify-center items-center">
                     <div className="mt-5">
-                        <img src={Icon1} alt="Choose a package"
-                            width={50}
-                            className="object-contain"
-                        />
+                        
+                        <div className='flex w-10 h-10 justify-center items-center text-white bg-primary rounded-xl text-2xl'>
+                            <h1>1</h1>
+
+                        </div>
+
                         <h4 className="text-2xl mt-3 font-semibold">Choose a package</h4>
                         <p className='text-xl mt-3'>Choose a package that is right for you depending on your nature of business, budget and business launch needs.</p>
                     </div>
 
                     <div className="mt-10">
-                        <img src={Icon2} alt="Review your draft"
-                            width={50}
-                            className="object-contain"
-                        />
+                       
+                        <div className='flex w-10 h-10 justify-center items-center text-white bg-primary rounded-xl text-2xl'>
+                            <h1>2</h1>
+
+                        </div>
+
 
                         <h4 className="text-2xl mt-3 font-semibold">Review your Draft</h4>
                         <p className='text-xl mt-3'>Review a draft copy of your website content and UI design.</p>
@@ -40,19 +40,23 @@ const Simplified = () => {
 
                 <div className="flex-1 flex-col justify-center items-center">
                     <div className="mt-5">
-                        <img src={Icon3} alt="Answer questions"
-                            width={50}
-                            className="object-contain"
-                        />
+                        
+                        <div className='flex w-10 h-10 justify-center items-center text-white bg-primary rounded-xl text-2xl'>
+                            <h1>3</h1>
+
+                        </div>
+
                         <h4 className="text-2xl mt-3 font-semibold">Answer a few Questions</h4>
                         <p className='text-xl mt-3'>Give us a few information about your business via a simple chat. No boring forms. No confusing paperwork.</p>
                     </div>
 
                     <div className="mt-10">
-                        <img src={Icon4} alt="Launch website"
-                            width={50}
-                            className="object-contain"
-                        />
+                       
+                         <div className='flex w-10 h-10 justify-center items-center text-white bg-primary rounded-xl text-2xl'>
+                            <h1>4</h1>
+
+                        </div>
+
                         <h4 className="text-2xl mt-3 font-semibold">Launch your Website</h4>
                         <p className='text-xl mt-3'>Our experts will deliver a custom-tailored website that fit the need of your business to help you earn more.</p>
                     </div>
