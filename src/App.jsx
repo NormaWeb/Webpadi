@@ -6,9 +6,10 @@ import { FAQs, Launch, Onlinebusiness, Pricing, Simplified, Smallbusiness, Websi
 const App = () => (
   <Mainlayout>
 
-    <section className="padding b">
+    <section className="padding-x padding-t bg-slate-gray">
       <Smallbusiness />
     </section>
+
     <section className="padding bg-primary">
       <Onlinebusiness />
     </section>

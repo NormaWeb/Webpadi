@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
@@ -14,6 +17,7 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
+      '5xl': ['3.2rem', '60px'],
       '6xl': ['60px', '90px'],
       '7xl': ['70px', '100px'],
       '8xl': ['96px', '106px']
@@ -36,10 +40,7 @@ export default {
       colors: {
         'primary': "#81009e",
         "white": "#ffffff",
-        // "slate-gray": "#eaedfe",
-        "slate-gray": "hsl(150deg 12.5% 96.86%)",
-        
-      
+        "slate-gray": "#f1f1f1",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
