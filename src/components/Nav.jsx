@@ -5,8 +5,8 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="bg-slate-gray px-4 lg:px-[4rem] pb-4 pt-8">
-      <div className="container mx-auto flex flex-col lg:flex-row lg:items-center">
+    <nav className="bg-slate-gray padding-x pb-4 pt-8">
+      <div className="flex flex-col lg:flex-row lg:items-center">
 
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-semibold">Logo</a>
@@ -15,7 +15,7 @@ function Navbar() {
             {/* Mobile navigation toggle */}
             <div className="lg:hidden flex items-center">
               <button onClick={() => setToggleMenu(!toggleMenu)}>
-                MENU
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAdxJREFUWEelV1EWwjAIozf35vNtqyuUAGHux6draSAk1CHlM2TIIccQkUMvdj/Ml9Hv4CCwdODt3aDM+mLNfH1+cI/aYArF7d5WaXCTAVVfrpbpwTF9F90M6LBCFvzVNwytNWlMz53Vgo/dfH2rT7SRmPMDbkpIoGhMHgxRstf/rhBTAnoNiWNfNuPzlHVbH3nMbmU5ZVZ+xN52KRZGVY6fBJHKtqRitbrsgQhquLekjFqGZE5dAmKElwgCtgvv1HXG8YqGBSiVNbo2VZzrxVYqAWWNGAxvTLiwqWkXVNMQ2fhLoN4YV6APSgyfE5+etM/HqyacZRcUakh70DS4KXs/AiOGS0AvWdGzak0u1QERIEAZA4GeGTM+dUHTDVvcKpQ6UE8s5plk7jn/PKm9NKSbxixM0jt1KnuGDq4SWxkeSnKn1i0HgHaPdkUO8rOUrV3FcNXNYyOTQD07p/6SzaXscVtFXe5Aj+0q9PAB/1YMkSNH1K2KS500RrLehRkwmoRrII/9aKkZAQaiK4qZZREF8f2mLqYF6nwO5OGNkS5PDecMldoaGAh/XdA4SMklpvKhVMbgZQ8QtzqnLI3BkEHz/3D7TmWuO6ODYzfPdsRpAC/DF0mODncLACd/AVLEyCtPWh9jAAAAAElFTkSuQmCC" />
               </button>
             </div>
           </div>
