@@ -51,8 +51,13 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
-
+  
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+  
+  /* Text */
+  .section-text-heading{
+    @apply text-3xl/snug lg:text-4xl font-semibold;
   }
 }
