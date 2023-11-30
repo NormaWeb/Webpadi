@@ -78,7 +78,7 @@ const FAQs = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col max-lg:flex-col bg-slate-gray py-10 text-center">
+                <div className="flex-1 flex flex-col max-lg:flex-col bg-slate-gray p-10 text-center">
                     <div className='flex flex-col items-center'>
                         <img src={Icon} alt="FAQs"
                             width={180}
