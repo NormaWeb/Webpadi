@@ -35,20 +35,21 @@ const FAQs = () => {
 
     return (
         <section className="max-container">
-            <div className="p-10">
-                <h1 className="text-4xl font-semibold leading-tight">Frequently <br /> Asked Questions</h1>
-                <p className='text-xl mt-3'>This is where we answer all your <br /> questions. Check it out.</p>
+            <div className="mb-10 lg:max-w-[45%]">
+                <h1 className="section-text-heading mb-4">Frequently Asked Questions</h1>
+                <p className='text-xl'>This is where we answer all your questions. Check it out.</p>
             </div>
 
-            <div className="flex justify-between max-lg:flex-col gap-20 w-full p-5">
+            <div className="flex justify-between max-lg:flex-col gap-20">
                 <div className="flex-1">
-                    <div className="mt-8 lg:mt-12">
+                    <div className="">
                         {faqData.map((item, index) => (
-                            <div key={index} className="p-8 rounded-lg">
+                            <div key={index} className="py-4">
                                 <button
-                                    className="flex justify-between w-full border border-transparent border-b-black pb-8"
+                                    className="flex text-start justify-between w-full border border-transparent border-b-black pb-4 gap-3"
                                     onClick={() => handleAccordionClick(index)}
-                                > <h1 className="font-semibold">{item.question}</h1>
+                                >
+                                    <h1 className="font-semibold">{item.question}</h1>
                                     <span className="">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -68,30 +69,29 @@ const FAQs = () => {
                                                 }
                                             />
                                         </svg>
-                                    </span></button>
-                                {activeIndex === index && <p>{item.answer}</p>}
+                                    </span>
+                                </button>
+                                {activeIndex === index && <p className='mt-3'>{item.answer}</p>}
                             </div>
                         ))}
 
                     </div>
                 </div>
 
-            <div className="flex-1 flex flex-col max-lg:flex-col bg-slate-gray gap-5 mt-16 p-5">
-                <h1 className='text-center'>
+                <div className="flex-1 flex flex-col max-lg:flex-col bg-slate-gray py-10 text-center">
                     <div className='flex flex-col items-center'>
                         <img src={Icon} alt="FAQs"
                             width={180}
-                            className="object-contain items-center w-17 h-17 mt-10"
+                            className="object-contain items-center w-17 h-17 mb-5"
                         />
                         <span className='text-3xl font-bold mb-5'> You have different questions?</span>
-                        <p className='text-xl mt-5'> Our team will answer all your questions. <br /> We ensure a quick response.</p>
+                        <p className='text-xl'> Our team will answer all your questions. <br /> We ensure a quick response.</p>
 
-                                <div className="flex justify-center items-center mt-10">
-                                    <Button label="Contact Support" />
-                                </div>
+                        <div className="flex justify-center items-center mt-6">
+                            <Button label="Contact Support" />
+                        </div>
                     </div>
-                </h1>
-            </div>
+                </div>
             </div>
 
         </section >
