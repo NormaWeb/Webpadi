@@ -18,7 +18,7 @@ const App = () => (
       <Websites />
     </section>
 
-    <section className="padding">
+    <section className="padding bg-slate-gray">
       <Simplified />
     </section>
 
