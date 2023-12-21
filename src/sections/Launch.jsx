@@ -76,7 +76,7 @@ const Launch = () => {
 
             <Slider {...sliderSettings} ref={customeSlider} className="">
                 <div className="pe-5">
-                    <div className="flex-1 flex flex-col justify-center bg-white p-5">
+                    <div className="flex-1 flex flex-col justify-center bg-white p-5 h-full">
                         <div className="flex flex-1 flex-col">
                             <img src={Image1} alt="Launch"
                                 // width={500}
@@ -88,7 +88,8 @@ const Launch = () => {
                             <h5 class="text-heading font-semibold tracking-tight mb-2">FLPRO Limited</h5>
 
                             <div className="flex flex-row gap-4">
-                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+                                <p className="text-[16px] md:text-[18px]">
+                                    Providing top-tier management and promotional services for artists in various niches.</p>
 
                                 <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
                                     <span className="bg-black p-2 md:p-3 rounded-full inline-block">
@@ -102,7 +103,7 @@ const Launch = () => {
 
 
                 <div className="pe-5">
-                    <div className="flex-1 flex flex-col justify-center bg-white p-5">
+                    <div className="flex-1 flex flex-col justify-center bg-white p-5 h-full">
                         <div className="flex flex-1 flex-col">
                             <img src={Image2} alt="Launch" className="object-contain" />
                         </div>
@@ -111,7 +112,7 @@ const Launch = () => {
                             <h5 class="text-heading font-semibold tracking-tight mb-2">Soaaron </h5>
 
                             <div className="flex flex-row">
-                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+                                <p className="text-[16px] md:text-[18px]">Delivering diverse high-quality content services for academics, authors, and businesses. </p>
 
                                 <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
                                     <span className="bg-black p-2 md:p-3 rounded-full inline-block">
@@ -125,7 +126,7 @@ const Launch = () => {
 
 
                 <div className="pe-5">
-                    <div className="flex-1 flex flex-col justify-center bg-white p-5">
+                    <div className="flex-1 flex flex-col justify-center bg-white p-5 h-full">
                         <div className="flex flex-1 flex-col">
                             <img src={Image3} alt="Launch"
                                 className="object-contain"
@@ -135,7 +136,7 @@ const Launch = () => {
                         <div className="flex flex-1 flex-col mt-5">
                             <h5 class="text-heading font-semibold tracking-tight mb-2">Fathenso Services</h5>
                             <div className="flex flex-row">
-                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+                                <p className="text-[16px] md:text-[18px]">Offering comprehensive business support, from business idea to incorporation and compliance.</p>
 
                                 <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
                                     <span className="bg-black p-2 md:p-3 rounded-full inline-block">
