@@ -18,7 +18,7 @@ const Websites = () => {
             width={570} height={522}
             className="object-contain lg:hidden mb-5"
           />
-          <p className="text-2xl/snug mb-7" > Let's build you a custom-designed, brand- differentiating marketing website that helps you increase sales, increase bran recall value, promote goodwill in front of customers and target audience, as well as deliver strong marketing messages 24 hours, 365 days a year! </p>
+          <p className="text-heading mb-7" > Let's build you a custom-designed, brand- differentiating marketing website that helps you increase sales, increase bran recall value, promote goodwill in front of customers and target audience, as well as deliver strong marketing messages 24 hours, 365 days a year! </p>
 
           <Button label="Get Started" />
         </div>

@@ -1,77 +1,3 @@
-// import React from 'react';
-// import Image1 from '../assets/Three Page View.png';
-// import Image2 from '../assets/Second view page.png';
-// import Image3 from '../assets/Full Home Page.png';
-
-// const Launch = () => {
-//     return (
-//         <section id='our-work'>
-//             <div>
-//                 <h1 className='text-4xl font-semibold leading-tight text-white'>Take a look at some of the websites <br /> we have built and launch successfully.</h1>
-//             </div>
-
-//             <div className="flex justify-between max-lg:flex-col gap-10 w-full max-container p-10">
-
-//                 <div className="flex-1 flex flex-col justify-center  max-lg:flex-col bg-white gap-10 p-6">
-//                     <div className="flex-1 flex justify-center items-center">
-//                         <div>
-//                             <img src={Image1} alt="Launch"
-//                                 className="object-contain"
-//                             />
-
-//                         </div>
-
-//                     </div>
-//                     <div className="flex flex-1 flex-col">
-//                         <h5 class="text-xl font-semibold tracking-tight">FLPRO Limited</h5>
-//                         <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
-//                     </div>
-
-
-//                 </div>
-
-//                 <div className="flex-1 flex flex-col justify-center max-lg:flex-col bg-white gap-10 p-6">
-//                     <div className="flex-1 flex justify-center items-center">
-//                         <div>
-//                             <img src={Image2} alt="Launch"
-//                                 className="object-contain"
-//                             />
-//                         </div>
-
-//                     </div>
-//                     <div className="flex flex-1 flex-col">
-//                         <h5 class="text-xl font-semibold tracking-tight">Soaaron </h5>
-//                         <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
-//                     </div>
-
-
-//                 </div>
-
-//                 <div className="flex-1 flex flex-col justify-center max-lg:flex-col bg-white gap-10 p-6">
-//                     <div className="flex-1 flex justify-center items-center">
-//                         <div>
-//                             <img src={Image3} alt="Launch"
-//                                 className="object-contain"
-//                             />
-//                         </div>
-
-//                     </div>
-//                     <div className="flex flex-1 flex-col">
-//                         <h5 class="text-xl font-semibold tracking-tight">Fathenso Services</h5>
-//                         <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
-//                     </div>
-
-
-//                 </div>
-//             </div>
-
-//         </section>
-//     )
-// }
-
-// export default Launch
-
-
 import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -79,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image1 from '../assets/Three Page View.png';
 import Image2 from '../assets/Second view page.png';
 import Image3 from '../assets/Full Home Page.png';
+import Arrow from '../assets/arrow.svg';
 
 const Launch = () => {
     //creating the ref
@@ -158,8 +85,17 @@ const Launch = () => {
                         </div>
 
                         <div className="flex flex-1 flex-col mt-5">
-                            <h5 class="text-xl font-semibold tracking-tight">FLPRO Limited</h5>
-                            <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
+                            <h5 class="text-heading font-semibold tracking-tight mb-2">FLPRO Limited</h5>
+
+                            <div className="flex flex-row gap-4">
+                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+
+                                <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
+                                    <span className="bg-black p-2 md:p-3 rounded-full inline-block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className='fill-white' width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" /></svg>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,7 +108,17 @@ const Launch = () => {
                         </div>
 
                         <div className="flex flex-1 flex-col mt-5">
-                            <h5 class="text-xl font-semibold tracking-tight">Soaaron </h5>                         <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
+                            <h5 class="text-heading font-semibold tracking-tight mb-2">Soaaron </h5>
+
+                            <div className="flex flex-row">
+                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+
+                                <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
+                                    <span className="bg-black p-2 md:p-3 rounded-full inline-block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className='fill-white' width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" /></svg>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,8 +133,16 @@ const Launch = () => {
                         </div>
 
                         <div className="flex flex-1 flex-col mt-5">
-                            <h5 class="text-xl font-semibold tracking-tight">Fathenso Services</h5>
-                            <p className="">Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. <br /> Eius, ea.</p>
+                            <h5 class="text-heading font-semibold tracking-tight mb-2">Fathenso Services</h5>
+                            <div className="flex flex-row">
+                                <p className="text-[16px] md:text-[18px]">Providing top-notch management and promotional services to artists across different niches.</p>
+
+                                <a href="https://flprolimited.com/" target="_blank" rel="noopener noreferrer">
+                                    <span className="bg-black p-2 md:p-3 rounded-full inline-block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className='fill-white' width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" /></svg>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

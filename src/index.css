@@ -82,4 +82,8 @@
   .section-text-heading {
     @apply text-3xl/snug lg:text-4xl font-semibold;
   }
+
+  .text-heading {
+    @apply text-[22px] lg:text-[24px];
+  }
 }

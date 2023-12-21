@@ -40,6 +40,7 @@ export default {
       colors: {
         'primary': "#81009e",
         "white": "#ffffff",
+        "black": "#000000",
         "slate-gray": "#f1f1f1",
       },
       boxShadow: {

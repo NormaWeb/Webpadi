@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from './Button';
+import Logo from '../assets/logo.png';
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -9,7 +10,9 @@ function Navbar() {
       <div className="flex flex-col lg:flex-row lg:items-center">
 
         <div className="flex items-center justify-between">
-          <a href="#" className="text-2xl font-semibold">Logo</a>
+          <a href="#" className="text-2xl font-semibold">
+            <img src={Logo} alt="Webpadi Logo" width={150} className="object-contain" />
+          </a>
 
           <div className="flex gap-3 items-center lg:hidden">
             {/* Mobile navigation toggle */}
