@@ -123,7 +123,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" />
+                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" />
                             </div>
                         </div>
                     </div>
