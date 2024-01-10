@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../components/Button';
 
 const Pricing = () => {
+    
     return (
         <section id='our-pricing'>
             <div className="flex justify-between items-center max-lg:flex-col lg:gap-20 mb-10">
@@ -64,7 +65,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-10">
-                                <Button label="Get Started" />
+                                <Button label="Get Started" url="https://bit.ly/webpadi-basic" />
                             </div>
                         </div>
                     </div>
@@ -123,7 +124,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" />
+                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" url="https://bit.ly/webpadi-standard" />
                             </div>
                         </div>
                     </div>
@@ -188,7 +189,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" />
+                                <Button label="Get Started" url="https://bit.ly/webpadi-premium" />
                             </div>
                         </div>
                     </div>
