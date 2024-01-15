@@ -65,7 +65,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-10">
-                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Basic Package* for my business/brand." />
+                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Basic Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" url="https://wa.me/+2347014236712?text=I want to get the *Standard Package* for my business/brand." />
+                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Standard Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Supreme Package* for my business/brand." />
+                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Supreme Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
