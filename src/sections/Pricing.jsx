@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../components/Button';
 
 const Pricing = () => {
-    
+
     return (
         <section id='our-pricing'>
             <div className="flex justify-between items-center max-lg:flex-col lg:gap-20 mb-10">
@@ -16,7 +16,7 @@ const Pricing = () => {
             </div>
 
             <div className="flex justify-between max-lg:flex-col gap-10">
-
+                {/* Basic */}
                 <div className="flex-1 flex flex-col justify-center items-center max-lg:flex-col bg-slate-gray p-5">
                     <div className="flex-1 flex justify-center items-center py-5">
                         <div>
@@ -65,13 +65,13 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-10">
-                                <Button label="Get Started" url="https://bit.ly/webpadi-basic" />
+                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Basic Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
                 </div>
 
-
+                {/* Premium */}
                 <div className="flex-1 flex flex-col justify-center items-center max-lg:flex-col bg-primary gap-10 p-5">
                     <div className="flex-1 flex justify-center items-center py-5">
                         <div>
@@ -124,13 +124,13 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" url="https://bit.ly/webpadi-standard" />
+                                <Button label="Get Started" backgroundColor="bg-white" textColor="text-black" url="https://wa.me/+2347014236712?text=I want to get the *Standard Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
                 </div>
 
-
+                {/* Supreme */}
                 <div className="flex-1 flex flex-col justify-center items-center max-lg:flex-col bg-slate-gray gap-10 p-5">
                     <div className="flex-1 flex justify-center items-center py-5">
                         <div>
@@ -189,7 +189,7 @@ const Pricing = () => {
 
 
                             <div className="flex max-sm:justify-end items-center max-sm:w-full mt-5">
-                                <Button label="Get Started" url="https://bit.ly/webpadi-premium" />
+                                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Supreme Package* for my business/brand." />
                             </div>
                         </div>
                     </div>
