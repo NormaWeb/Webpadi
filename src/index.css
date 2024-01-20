@@ -12,6 +12,28 @@
   scroll-behavior: smooth;
 }
 
+.slick-list {
+  padding: 0 20% 0 0 !important;
+}
+
+.call-out{
+  background-image: url('assets/Collaborate.png');
+  background-color: #f1f1f1 !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: top right !important;
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .call-out{
+    background-image: none !important;
+  }
+  .slick-list {
+    padding: 0 5% 0 0 !important;
+  }
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -21,7 +43,7 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
-} 
+}
 
 @layer utilities {
   .padding {
@@ -54,5 +76,14 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+
+  /* Text */
+  .section-text-heading {
+    @apply text-3xl/snug lg:text-4xl font-semibold;
+  }
+
+  .text-heading {
+    @apply text-[22px] lg:text-[24px];
   }
 }

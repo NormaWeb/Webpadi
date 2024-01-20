@@ -5,24 +5,16 @@ import Image1 from '../assets/Image1.png';
 const Smallbusiness = () => {
     return (
         <div className="">
-            <div>
-                <h1 className='text-7xl font-semibold leading-tight'>Take your small <br />
-                    business online today.</h1> <br />
-                <p className='text-3xl'>Let's build a high-converting website for your business so <br />
-                    your customers and potential customers see and know <br />
-                    what you do/sell with a click of a button.</p> <br />
+            <div className='lg:max-w-[65%]'>
+                <h1 className='text-5xl lg:text-7xl/none font-semibold mb-5'>Take your small business online today.</h1>
+                <p className='text-[23px]/normal md:text-3xl/snug mb-6'>Get a high-converting website for your business so
+                    your customers and potential customers see and know
+                    what you do/sell with a click of a button.</p>
 
-                <div className="flex max-sm:justify-end items-center max-sm:w-full mb-5">
-                    <Button label="Get Started" />
-                </div>
+                <Button label="Get Started" />
             </div>
-            
 
-            <div className='mt-10'>
-                < img src={Image1} alt="Create an Account"
-                    className="object-contain"
-                />
-            </div>
+            <img src={Image1} alt="Create an Account" className="object-contain mt-10" />
         </div>
     )
 }

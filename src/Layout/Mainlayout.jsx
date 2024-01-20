@@ -7,7 +7,7 @@ function Mainlayout({ children }) {
     <main className="relative">
       <Nav></Nav>
 
-      <div>{children}</div>
+      {children}
 
       <Footer></Footer>
     </main>
