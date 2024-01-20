@@ -88,7 +88,7 @@ const FAQs = () => {
                         <p className='text-xl'> Our team will answer all your questions. <br /> We ensure a quick response.</p>
 
                         <div className="flex justify-center items-center mt-6">
-                            <Button label="Contact Support" />
+                            <Button label="Contact Support" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Basic Package* for my business/brand." />
                         </div>
                     </div>
                 </div>

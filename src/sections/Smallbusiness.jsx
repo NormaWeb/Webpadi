@@ -11,7 +11,7 @@ const Smallbusiness = () => {
                     your customers and potential customers see and know
                     what you do/sell with a click of a button.</p>
 
-                <Button label="Get Started" />
+                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Basic Package* for my business/brand." />
             </div>
 
             <img src={Image1} alt="Create an Account" className="object-contain mt-10" />
