@@ -34,7 +34,7 @@ function Navbar() {
           </ul>
 
           <div className='font-semibold mt-5 lg:mt-0'>
-            <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Basic Package* for my business/brand."/>
+           <a href="#our-pricing"> <Button label="Get Started"/> </a>
           </div>
         </div>
 

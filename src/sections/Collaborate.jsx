@@ -9,7 +9,7 @@ const Collaborate = () => {
                 <h1 className='section-text-heading mb-5'> Take your business online.</h1>
                 <p className='text-xl mb-10 '> Collaborate with our passionate team of designers and <br /> developers to build a website.</p>
 
-                <Button label="Get Started" url="https://wa.me/+2347014236712?text=I want to get the *Webpadi Basic Package* for my business/brand." />
+                <a href="#our-pricing"> <Button label="Get Started"/> </a>
             </div>
         </div>
 
