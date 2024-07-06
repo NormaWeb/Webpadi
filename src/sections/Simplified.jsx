@@ -9,7 +9,7 @@ const Simplified = () => {
                     <h1 className="section-text-heading mb-5">We have a simplified process.</h1>
                     <p className="text-heading mb-7">Get your business online today in just four simple steps.</p>
 
-                    <Button label="Get Started" />
+                    <a href="#our-pricing"> <Button label="Get Started"/> </a>
                 </div>
 
                 <div className="flex-1 flex-col justify-center items-center">

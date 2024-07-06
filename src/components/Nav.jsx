@@ -34,7 +34,7 @@ function Navbar() {
           </ul>
 
           <div className='font-semibold mt-5 lg:mt-0'>
-            <Button label="Get Started" />
+           <a href="#our-pricing"> <Button label="Get Started"/> </a>
           </div>
         </div>
 

@@ -11,7 +11,7 @@ const Smallbusiness = () => {
                     your customers and potential customers see and know
                     what you do/sell with a click of a button.</p>
 
-                <Button label="Get Started" />
+                    <a href="#our-pricing"> <Button label="Get Started"/> </a>
             </div>
 
             <img src={Image1} alt="Create an Account" className="object-contain mt-10" />

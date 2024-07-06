@@ -20,7 +20,7 @@ const Websites = () => {
           />
           <p className="text-heading mb-7" > Let's build you a custom-designed, brand- differentiating marketing website that helps you increase sales, increase bran recall value, promote goodwill in front of customers and target audience, as well as deliver strong marketing messages 24 hours, 365 days a year! </p>
 
-          <Button label="Get Started" />
+          <a href="#our-pricing"> <Button label="Get Started"/> </a>
         </div>
 
       </div>

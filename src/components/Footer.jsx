@@ -15,7 +15,7 @@ function Footer() {
       </div>
 
       <div className="text-white text-xl mt-10">
-        All right reserved  &copy; 2023 | Powered by <a href="https://oniontabs.com" target="_blank" rel="noopener noreferrer">Oniontabs LLC</a>
+        All right reserved  &copy; 2024 | Powered by <a href="https://webpadi.com.ng" target="_blank" rel="noopener noreferrer">Webpadi</a>
       </div>
     </footer>
   );
