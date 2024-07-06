@@ -11,29 +11,28 @@ const FAQs = () => {
 
     const faqData = [
         {
-            question: 'WHY SHOULD I HAVE A WEBSITE?',
+            question: 'Why should I have a website?',
             answer: 'A website is the first step toward growing an online presence for your business or passion project, whether you want to sell online or manage a blog. With Webpadi, you can get started with a website customized to fit your brand.',
         },
         {
-            question: 'How does Pricing Works?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe! ',
+            question: "How does pricing work?",
+            answer: 'Webpadi offers a range of packages tailored to meet diverse needs and budgets. These packages are designed to cater to different levels of business requirements, from solopreneurs and freelancers to larger enterprises seeking more extensive web solutions. Each package includes essential features such as mobile responsiveness, SEO optimization, and ongoing support to ensure your website performs optimally. ',
         },
         {
-            question: 'What"s your edge over other agaencies?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: "What's your edge over other web design agencies?",
+            answer: 'Webpadi prides itself on its agile development methodology, strong focus on business requirements and ROI, quick response times, and a commitment to delivering high-quality, responsive websites. They offer extensive project management experience and ensure their websites are optimized for both user experience and search engines',
         },
         {
-            question: 'What is your team"s design process? ',
-            answer: ': Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: "What's your team's design process?",
+            answer: 'Webpadi makes getting a website a breeze. Choose a package that suits your budget and that of your business. Review a draft copy of your website content that perfectly captures your brand. Share your brand idea with us on a call- no boring paperwork, no confusing forms and get your custom-tailored website that meets your business needs.',
         },
         {
             question: 'How much support do you need on a project?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            answer: 'A website might be the face of the brand, but you are the heart and soul behind it. We need your insightful ideas to bring your dream website to life.',
         },
         {
-
-            question: 'We need an app to go with our website. Can you do?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: 'We need an app to go with our website, can you do it?',
+            answer: 'Yes, we can. While Webpadi excels in web design needs, we also assist clients in building apps that seamlessly integrate with their websites. ',
         },
     ];
 
