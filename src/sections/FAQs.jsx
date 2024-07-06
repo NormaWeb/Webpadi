@@ -11,6 +11,10 @@ const FAQs = () => {
 
     const faqData = [
         {
+            question: 'WHY SHOULD I HAVE A WEBSITE?',
+            answer: 'A website is the first step toward growing an online presence for your business or passion project, whether you want to sell online or manage a blog. With Webpadi, you can get started with a website customized to fit your brand.',
+        },
+        {
             question: 'How does Pricing Works?',
             answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe! ',
         },
